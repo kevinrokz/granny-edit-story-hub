@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Granny Edit Story Hub</title>
+
+<style>
+body { 
+    background-color: black; 
+    color: white; 
+    font-family: sans-serif; 
+    padding: 20px;
+}
+
+button { 
+    padding: 10px; 
+    margin: 5px;
+    background: #222;
+    color: white;
+    border: 1px solid #444;
+    cursor: pointer;
+}
+
+button:hover { background: #444; }
+
+#outputArea {
+    margin-top: 20px;
+    border-top: 2px solid #333;
+    padding-top: 20px;
+}
+
+.big { font-size: 60px; }
+.center { text-align: center; }
+.red { color: red; }
+.purple { color: violet; }
+.blue { color: cyan; }
+
+.shake {
+    display: inline-block;
+    animation: shake 0.2s infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(0,0); }
+    50% { transform: translate(5px,-5px); }
+    100% { transform: translate(0,0); }
+}
+</style>
+</head>
+
+<body>
+
+<button onclick="generateButtons()">Generate Story Menu</button>
+
+<div id="buttonContainer"></div>
+<div id="outputArea">Click "Generate Story Menu"</div>
+
+<script>
+
+// MENU
+function generateButtons() {
+    const container = document.getElementById("buttonContainer");
+    container.innerHTML = "";
+
+    for (let i = 1; i <= 10; i++) {
+        let btn = document.createElement("button");
+        btn.innerText = "Part " + i;
+
+        btn.onclick = function () {
+            let fn = window["showPart" + i];
+            if (fn) fn();
+        };
+
+        container.appendChild(btn);
+    }
+}
+
+// ===== PART 1 =====
+function showPart1() {
+document.getElementById("outputArea").innerHTML =`
+<h1>Granny Edit Story</h1>
+    <h2>Part 1</h2>
+    
+    <p>Once a upon a time there lived anime characters Granny, Grandpa, Slenderina, Slenderman, Kevin, Elise, Rithvik, Lamborghini, Ferrari, Toyota Supra, XUV 700, XL6, Rolls Royes and Force Gurkha. One day, There was everyone fighting for Peace except Granny, Grandpa, Slenderina and Slenderman.<br> 
+    Naruto: Idiots stop fighting.<br>
+    Kakashi: they wont.<br> 
+    Goku: THEN LETS STOP THEM!<br>
+    When Goku came, slenderman got more angry but black RaQuazar shiny VMAX did not acsept it and he put the dragon breath and the tornado threw slenderina and slenderman, and slenderman got hit by a aeroplane and slendarina gone flying 37 feet high and ruppels griffen's vulture caught her and threw her away. Granny came with her stick at the same time XL6 came in the opposite direction.<br>
+    Granny:ha! I got you Naruto.<br>
+    XL6: I am not Naruto Idiot.<br>
+    XL6 crashing Granny.<br>
+    Narto put the rasingan and grandpa's gun came to me, Rithvik and Elise, and Elise shooted like:<br>
+    Wait Grandpa is searching for his gun, Nevermind and Elise shooted like this:<br>
+    *It was a multi-gun so it came shooting Grandpa<br>
+    *Slenderman<br>
+    *Granny and the bat fell down wait a bat we can take it HOORAY!<br>
+    The rasingan is still coninuting<br>
+    WHAT?<br>
+    Aaqil:but i have a sword<br>
+    Rithvik:you can sit in the fire place and cut their legs<br>
+    Aaqil:there will be fire?<br>
+    Siddhu:nah they live in darkness<br>
+        Goku and Kakashi and Naruto are attacking Slenderman<br>
+    what Rithvik is dancing for no reason i will kill him with my MIGgun(shooting)<br>
+    xl6:get in, fast!<br>
+    Ritkvik:shut up<br>
+    Kevin:Then die<br>
+    Levin:i think we are not able to escape because granny grandpa slenderman and slenderina has come<br>
+    Yuji:ok, what<br>
+    Kevin:He is trying to tell that ;i think we are not able to escape because granny grandpa slenderman and slenderina has come<br>
+    Aaqil:i will punch their faces<br>
+    Kevin:Zip it.<br>
+    siddhu:who?<br>
+    all:you idiot!<br>
+    siddhu:look who is telling that</p>
+
+    <p style="font-size: 100px; margin: 10px 0;">KABOOM</p>
+
+    <p>elise:hey what was that<br>
+    Rithvik:them<br>
+    Kevin:NOT THEM, GRANDPA</p>
+
+    <p style="font-family: Algerian; font-size: 24px;">IDIOT</p>
+
+    <p>LAMBOGINI:I THINK WE SHOULD GO TO SLEEP<BR>
+    RITHVIK:THEN?<br>
+    all:good night!</P>
+
+    <div style="text-align: center;">
+        DAY 2<hr style="width: 50%;">THE MILISECOND PROBLEM
+    </div>
+
+    <p>When everyone was sleeping and snoring</p>
+    <p style="font-size: 100px; margin: 10px 0;">very loudly</p>
+    
+    <p>which is annoying(Groan)<br>
+    phew, morning came YAY!<br>
+    gojo is early because he is teaching his students and later i shouted<br>
+    Kevin:Hey Gojo You Ready?<br>
+    gojo:yeah see back of you<br>
+    kevin: aaaaa granny(shooting)hey where is she?<br>
+    Gojo:(trying to fight slenderman)hey everyone help me!<br>
+    all: (attacking Granny, Grandpa, Slenderina and slenderman)<BR>
+    SIDDARTH: they are too fast<br>
+    rithvik:we are in the level 4 muli...<br>
+    Kevin:realy bro<br>
+    levin so they are fast<br>
+    Aaqil:Faster than me? I wish i could get them <br>
+    gojo: i will reach the finish line in 1milisecond<br>
+    elise:great<br>
+    Kevin:great for what?<br>
+    elise:only that idiot knows what to do<br>
+    yuji:we are not <u>idiots</u><br>
+    elise: <mark>nobody cares</mark> of that stiupid thing <br>
+    rithvik:we should see if grandpa is sleeping<br>
+    gojo:ok on my way<br>
+    after 2 miliseconds...<br>
+    Gojo:yes he is<br>
+    Aaqil:how?<br>
+    Gojo:that is my power<br>
+    elise:i am going to aim through my arrow<br>
+    and elise started shooting</p>
+
+    <p style="font-size: 80px;">GRANDPA IS IN DEAD MODE</p>
+
+    <p>Rithvik:What about slenderina?<br>
+    Gojo:i can handle<br>
+    kakashi:us?<br>
+    goku:we can mind the outer space<br>
+    Kevin:black RaQuazar shiny VMAX will see the outer space too but on the sky<br>
+    Slenderina:ugh<br>
+    elise:(shooting)<br>
+    rithvik:ooooooooooooooof<br>
+    all:what??!!<br>
+    sukuna:hahahahahaha<br>
+    levin:your disgusting<br>
+    sukuna:who said that<br>
+    Kevin:your face<br>
+    all:hahahahahaha<br>
+    aqhil:trash sukuna<br>
+    sukuna:you call trash?now see,domain expantion infinit slays<br>
+    all:aaaaaaah<br>
+    gojo:you are scared of that?domain expantion infinit void<BR>
+    Kevin:stop<br>
+    yuji:??!!<br>
+    rithvik:stiupid gojo scared of kevin<br>
+    gojo:(whispering)you are one of the most strongest annoyer in the whole world<br>
+    Kevin:of course he is<br>
+    Jovid:beleive it or not he has bat ears<br>
+    Kevin:i don't have bat ears or eyes i just have normal ears and eyes<br>
+    Rithvik:what i said is true<br>
+    Sukuna:yes yes yes<br>
+    gojo:you want a fight?<br>
+    sukuna:i won't mind<br>
+    <p style="font-size:40px;">TO BE CONTINUED…</p>
+`;
+}
+
+// ===== PART 2 =====
+function showPart2() {
+document.getElementById("outputArea").innerHTML = `
+    <h1>Granny Edit Story</h1>
+    <h2>Part 2: Ultimate Chaos Battle</h2>
+
+    <p>The air went silent.</p>
+
+    <p>Gojo and Sukuna stood facing each other.</p>
+
+    <p>
+    Sukuna: You really think you can stop me?<br>
+    Gojo: I don’t think… I know.
+    </p>
+
+    <p style="font-size: 60px;">BOOOOOOM!!!</p>
+
+    <p>
+    Rithvik: OOOO THIS IS GOING TO BE CRAZY!<br>
+    Kevin: Shut up and move back!
+    </p>
+
+    <h3>THE DOMAIN CLASH</h3>
+
+    <p>
+    Sukuna: Domain Expansion... <b>INFINITE SLAYS!</b><br>
+    Gojo: Domain Expansion... <b>INFINITE VOID!</b>
+    </p>
+
+    <p style="font-size: 50px;">CRAAAAASH!!!</p>
+
+    <p>
+    The two domains collided, tearing reality apart.<br>
+    Time slowed down. Space bent. Everything glitched.
+    </p>
+
+    <h3>MEANWHILE...</h3>
+
+    <p>
+    Slenderina: Miss me?<br>
+    Elise: Not really.
+    </p>
+
+    <p>Elise fired arrows rapidly, but Slenderina dodged them all.</p>
+
+    <p>
+    Aaqil: My turn!<br>
+    (charges forward)
+    </p>
+
+    <p style="font-size: 40px;">SMACK!</p>
+
+    <p>Aaqil went flying.</p>
+
+    <h3>GRANNY RETURNS</h3>
+
+    <p style="font-size: 40px;">THUD... THUD... THUD...</p>
+
+    <p>
+    Kevin: ...No way.<br>
+    Granny: You thought I was finished?
+    </p>
+
+    <p>
+    Rithvik: WHY DOES SHE ALWAYS COME BACK?!
+    </p>
+
+    <h3>CAR ATTACK MODE</h3>
+
+    <p>
+    XL6: GET IN NOW!<br>
+    Lamborghini: Activating speed mode.<br>
+    Ferrari: Let’s end this.
+    </p>
+
+    <p style="font-size: 40px;">VROOOOOOM!!!</p>
+
+    <h3>OUTER SPACE DEFENSE</h3>
+
+    <p>
+    Goku: Something big is coming.<br>
+    Kakashi: I can feel it.
+    </p>
+
+    <p>
+    Kevin (radio): BLACK RAYQUAZA—NOW!
+    </p>
+
+    <h3>BACK TO THE FIGHT</h3>
+
+    <p>
+    Sukuna: You’re strong...<br>
+    Gojo: You’re slow.
+    </p>
+
+    <p style="font-size: 40px;">BOOM!</p>
+
+    <p>Sukuna crashed into the ground—but started laughing.</p>
+
+    <h3>TOTAL CHAOS</h3>
+
+    <p>
+    Rithvik: I CAN’T KEEP TRACK OF ANYTHING!<br>
+    Kevin: JUST SHOOT EVERYTHING!<br>
+    Elise: THAT’S WHAT I’M DOING!
+    </p>
+
+    <h3>FINAL MOMENT</h3>
+
+    <p>
+    Suddenly, everything stopped.<br>
+    The sky turned black.
+    </p>
+
+    <p>
+    ???: You all are fighting... without knowing the truth.
+    </p>
+
+    <p>
+    Kevin: I don’t like this...<br>
+    Rithvik: Who said that?
+    </p>
+
+    <p>
+    Granny: He’s here...
+    </p>
+
+    <div style="text-align: center; margin-top: 30px;">
+        <hr style="width: 50%;">
+        <p style="font-size: 30px;">TO BE CONTINUED... (PART 3)</p>
+`;
+}
+
+// ===== PART 3 =====
+function showPart3() {
+document.getElementById("outputArea").innerHTML = `
+<h1>Granny Edit Story</h1>
+    <h2>Part 3: Spooky the Fire Monster</h2>
+
+    <p>The sky turned black... then burst into flames.</p>
+
+    <p>
+    ???: You were never meant to win...
+    </p>
+
+    <p>
+    Kevin: This is bad.<br>
+    Rithvik: Why is the sky burning?!
+    </p>
+
+    <h3>FINAL BOSS</h3>
+
+    <p style="font-size: 30px; color: orange;">
+    SPOOKY THE FIRE MONSTER
+    </p>
+
+    <p>
+    Spooky: I will burn everything to ashes.
+    </p>
+
+    <p style="font-size: 50px; color: red;">BOOOOOOM!!!</p>
+
+    <h3>POWER MAXIMUM</h3>
+
+    <p style="color: red;">BLACK ARSENAL MODE – FULL POWER</p>
+    <p style="color: cyan;">GLITCH MODE – MAXIMUM</p>
+    <p style="color: yellow;">FOCUS MODE – FINAL AIM</p>
+
+    <h3>ULTIMATE ATTACK</h3>
+
+    <p>
+    OMEGA BULLET STORM!!!<br>
+    CHAOS BURST!!!<br>
+    INFINITY ARROW!!!
+    </p>
+
+    <p style="font-size: 40px; color: orange;">MEGA EXPLOSION!!!</p>
+
+    <h3>REBIRTH</h3>
+
+    <p>
+    Spooky: Fire cannot be destroyed.
+    </p>
+
+    <p>
+    Kevin: We finish this together.
+    </p>
+
+    <h3>FINAL ATTACK</h3>
+
+    <p style="font-size: 40px; color: yellow;">
+    FINAL UNITY STRIKE!!!
+    </p>
+
+    <p>The flames disappeared...</p>
+
+    <p>
+    Rithvik: We did it...<br>
+    Granny: Or did you?
+    </p>
+
+    <div style="text-align: center; margin-top: 30px;">
+        <hr style="width: 50%;">
+        <p style="font-size: 30px;">TO BE CONTINUED... (PART 4)</p>
+`;
+}
+
+// ===== PART 4 =====
+function showPart4() {
+document.getElementById("outputArea").innerHTML = `
+<h1>Granny Edit Story</h1>
+    <h2>Part 4: Spooky Inferno Form</h2>
+
+    <p>The silence didn’t last long...</p>
+
+    <p style="color: orange; font-size: 30px;">
+    A tiny flame appeared in the sky.
+    </p>
+
+    <p style="font-size: 50px; color: red;">
+    FIRE STORM!!!
+    </p>
+
+    <h3>SPOOKY RETURNS</h3>
+
+    <p style="color: red; font-size: 30px;">
+    SPOOKY – INFERNO MODE
+    </p>
+
+    <p>
+    Spooky: You cannot destroy fire... I evolve.
+    </p>
+
+    <h3>TEAM STRUGGLE</h3>
+
+    <p>
+    Kevin: Omega Bullet Storm!!!<br>
+    (attacks melt instantly)
+    </p>
+
+    <p>
+    Elise: My arrows are burning!
+    </p>
+
+    <h3>THE PLAN</h3>
+
+    <p>
+    Rithvik: Fire needs oxygen!<br>
+    Gojo: Remove the air.
+    </p>
+
+    <h3>FINAL STRATEGY</h3>
+
+    <p>
+    Goku launches Spooky into the sky.<br>
+    Kakashi traps him.<br>
+    Gojo removes the air.
+    </p>
+
+    <p>
+    Spooky: What is happening?!
+    </p>
+
+    <h3>FINAL ATTACK</h3>
+
+    <p style="font-size: 40px; color: yellow;">
+    INFINITY ARROW – FINAL FORM
+    </p>
+
+    <p>The arrow hits. Flames disappear.</p>
+
+    <h3>TWIST</h3>
+
+    <p>
+    Granny: He was only my creation...<br>
+    Now it’s my turn.
+    </p>
+
+    <div style="text-align: center; margin-top: 30px;">
+        <hr style="width: 50%;">
+        <p style="font-size: 30px;">TO BE CONTINUED... (PART 5)</p>
+`;
+}
+
+// ===== PART 5 =====
+function showPart5() {
+document.getElementById("outputArea").innerHTML = `
+<style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial;
+            overflow-x: hidden;
+        }
+
+        .fire {
+            color: orange;
+            text-shadow: 0 0 10px red, 0 0 20px orange;
+        }
+
+        .purple {
+            color: violet;
+            text-shadow: 0 0 10px purple, 0 0 20px blue;
+        }
+
+        .shake {
+            display: inline-block;
+            animation: shake 0.3s infinite;
+        }
+
+        @keyframes shake {
+            0% { transform: translate(0,0); }
+            25% { transform: translate(4px,-4px); }
+            50% { transform: translate(-4px,4px); }
+            75% { transform: translate(4px,4px); }
+            100% { transform: translate(0,0); }
+        }
+
+        .bg {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(120,0,255,0.15), black 70%);
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<h1>Granny Edit Story</h1>
+<h2>Part 5/4: Spooky Inferno vs Gojo</h2>
+
+<p>The battlefield was burning… but something changed.</p>
+
+<p class="fire">Spooky: You cannot defeat me… I am fire itself!</p>
+
+<p>Kevin: We’re losing control…</p>
+<p>Rithvik: This is not good at all…</p>
+
+<h3 class="purple">GOJO ENTERS THE FIELD</h3>
+
+<p>Gojo: I’ll end this.</p>
+
+<p>Spooky: You? Just one human?</p>
+
+<p class="shake fire" style="font-size:40px;">
+💥 BOOOOOOM!!! 💥
+</p>
+
+<p>Spooky slammed the ground—fire exploded everywhere.</p>
+
+<p>But Gojo didn’t move.</p>
+
+<p>Gojo: Too slow.</p>
+
+<h3 class="purple">INFINITE ENERGY BUILDING...</h3>
+
+<p class="purple">Gojo raises his hand...</p>
+
+<p>Space starts twisting.</p>
+
+<p>Rithvik: Wait… what is that?!</p>
+
+<p>Kevin: I don’t like that feeling…</p>
+
+<h3 class="purple">HOLLOW PURPLE</h3>
+
+<p class="purple" style="font-size: 30px;">
+PURPLE: MASS DISTORTION ENERGY
+</p>
+
+<p>Two forces collide in Gojo’s hands—blue and red.</p>
+
+<p>Everything goes silent.</p>
+
+<p class="purple shake" style="font-size: 50px;">
+ HOLLOW PURPLE!!! 
+</p>
+
+<p>A massive purple beam is fired straight at Spooky.</p>
+
+<h3>FINAL MOMENT</h3>
+
+<p>Spooky: WHAT IS THIS POWER?!</p>
+
+<p>The beam hits.</p>
+
+<p>Space breaks.</p>
+
+<p>Fire disappears.</p>
+
+<p>Explosion of purple light fills everything.</p>
+
+<h3>AFTERMATH</h3>
+
+<p>Silence.</p>
+
+<p>Smoke clears…</p>
+
+<p>Spooky is gone.</p>
+
+<p>Kevin: …We did it.</p>
+
+<p>Rithvik: Gojo actually ended it…</p>
+
+<p>Gojo: Easy.</p>
+
+<h3>ENDING TWIST</h3>
+
+<p>Granny slowly steps forward… smiling.</p>
+
+<p>Granny: Good job… but that was only one of them.</p>
+
+<div style="text-align:center; margin-top:30px;">
+    <hr style="width:50%;">
+    <p style="font-size:30px;">TO BE CONTINUED… (PART 5: GRANNY TRUE FORM)</p>
+<style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial;
+            overflow-x: hidden;
+        }
+
+        .red {
+            color: red;
+            text-shadow: 0 0 10px darkred, 0 0 20px red;
+        }
+
+        .purple {
+            color: violet;
+            text-shadow: 0 0 10px purple, 0 0 20px blue;
+        }
+
+        .shake {
+            display: inline-block;
+            animation: shake 0.25s infinite;
+        }
+
+        @keyframes shake {
+            0% { transform: translate(0,0); }
+            25% { transform: translate(5px,-5px); }
+            50% { transform: translate(-5px,5px); }
+            75% { transform: translate(5px,5px); }
+            100% { transform: translate(0,0); }
+        }
+
+        .bg {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255,0,0,0.2), black 70%);
+            z-index: -1;
+        }
+
+        .big {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<h1>Granny Edit Story</h1>
+<h2>Part 5: Granny True Form</h2>
+
+<p>The battlefield was silent.</p>
+
+<p>Spooky was gone…</p>
+
+<p>But something felt wrong.</p>
+
+<p>Kevin: Why do I feel… worse now?</p>
+
+<p>Gojo: Because something stronger is coming.</p>
+
+<h3 class="red">GRANNY MOVES FORWARD</h3>
+
+<p>Granny slowly drops her stick.</p>
+
+<p>Granny: You all did well…</p>
+
+<p>Rithvik: Uh… that sounds bad.</p>
+
+<p>Granny: But now… I don’t need this anymore.</p>
+
+<h3 class="red">TRANSFORMATION STARTS</h3>
+
+<p class="shake big">🔥 CRACK… CRACK… CRACK… 🔥</p>
+
+<p>The ground breaks open.</p>
+
+<p>The sky turns blood red.</p>
+
+<p>Kevin: NO WAY…</p>
+
+<p>Elise: What is she doing?!</p>
+
+<h3 class="red">TRUE FORM AWAKENS</h3>
+
+<p class="red big">GRANNY: TRUE FORM</p>
+
+<p>Her eyes glow dark red.</p>
+
+<p>Her shadow grows massive behind her.</p>
+
+<p>Even Gojo steps back.</p>
+
+<p>Gojo: ...This is not normal.</p>
+
+<h3 class="red">FINAL POWER REVEAL</h3>
+
+<p class="red">
+Granny: I created Slenderman… I created Spooky… and this world.
+</p>
+
+<p>Rithvik: WAIT WHAT?!</p>
+
+<p>Kevin: YOU’RE KIDDING ME RIGHT?!</p>
+
+<p>Granny: No.</p>
+
+<h3 class="purple">ALLIES ATTACK</h3>
+
+<p>Gojo: Hollow Purple…</p>
+
+<p>Kevin: Omega Bullet Storm!</p>
+
+<p>Elise: Infinity Arrow!</p>
+
+<p>Rithvik: CHAOS BURST!</p>
+
+<p class="shake big">💥 ALL ATTACKS FIRE AT ONCE 💥</p>
+
+<p>The attacks hit Granny directly…</p>
+
+<p>Silence.</p>
+
+<h3 class="red">NO DAMAGE</h3>
+
+<p>Granny: …That all?</p>
+
+<p>Kevin: …We’re cooked.</p>
+
+<h3 class="FINAL RED MOMENT"></h3>
+
+<p class="red big">GRANNY: FINAL FORM ACTIVATED</p>
+
+<p>The entire world starts breaking apart.</p>
+
+<p>Granny rises into the sky.</p>
+
+<p>Granny: Now… let’s end this story.</p>
+
+<div style="text-align:center; margin-top:30px;">
+    <hr style="width:50%;">
+    <p style="font-size:30px; color:red;">TO BE CONTINUED… (FINAL BATTLE ARC)</p>
+`;
+}
+
+// ===== PART 6 =====
+function showPart6() {
+document.getElementById("outputArea").innerHTML = `
+<style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial;
+            overflow-x: hidden;
+        }
+
+        .red {
+            color: red;
+            text-shadow: 0 0 10px darkred, 0 0 20px red;
+        }
+
+        .purple {
+            color: violet;
+            text-shadow: 0 0 10px purple, 0 0 20px blue;
+        }
+
+        .blue {
+            color: cyan;
+            text-shadow: 0 0 10px blue, 0 0 20px cyan;
+        }
+
+        .shake {
+            display: inline-block;
+            animation: shake 0.2s infinite;
+        }
+
+        @keyframes shake {
+            0% { transform: translate(0,0); }
+            25% { transform: translate(5px,-5px); }
+            50% { transform: translate(-5px,5px); }
+            75% { transform: translate(5px,5px); }
+            100% { transform: translate(0,0); }
+        }
+
+        .bg {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(120,0,255,0.2), black 70%);
+            z-index: -1;
+        }
+
+        .big {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<h1>Granny Edit Story</h1>
+<h2>Part 6: Gojo & Sukuna Laugh at Granny</h2>
+
+<p>The world was shaking… Granny stood in her True Form above reality.</p>
+
+<p>Everything went silent.</p>
+
+<h3 class="red">THEN—IT STARTED</h3>
+
+<p class="big blue shake">HAHAHAHAHAHA!!!</p>
+<p class="big red shake">HAHAHAHAHAHA!!!</p>
+
+<p>Gojo and Sukuna were laughing.</p>
+
+<p>Granny slowly looked at them.</p>
+
+<h3 class="red">GOJO LAUGHS</h3>
+
+<p>Gojo: You? The strongest? That’s funny.</p>
+
+<p>Kevin: Uh oh…</p>
+
+<p>Rithvik: Why is he laughing NOW?!</p>
+
+<h3 class="red">SUKUNA JOINS IN</h3>
+
+<p>Sukuna: I agree… this is amusing.</p>
+
+<p class="big shake red">HAHAHAHAHAHA!!!</p>
+
+<p>Elise: This is NOT a good sign…</p>
+
+<h3 class="purple">GRANNY STARES</h3>
+
+<p>Granny: …You find this funny?</p>
+
+<p>Gojo: Extremely.</p>
+
+<p>Sukuna: Very.</p>
+
+<h3 class="red">REALITY SHIFTS</h3>
+
+<p>The air gets heavier.</p>
+
+<p>The sky turns darker.</p>
+
+<p>Everything starts cracking again.</p>
+
+<p>Kevin: I feel like we made a mistake…</p>
+
+<h3 class="blue">GOJO & SUKUNA POWER PRESSURE</h3>
+
+<p class="blue">Gojo: Limitless pressure…</p>
+
+<p class="red">Sukuna: Domain expansion ready…</p>
+
+<p>The battlefield shakes violently.</p>
+
+<h3 class="red">GRANNY SMILES</h3>
+
+<p>Granny: Good… laugh more.</p>
+
+<p>Granny: It will make breaking you easier.</p>
+
+<h3 class="FINAL MOMENT"></h3>
+
+<p class="big shake red">THE ENERGY COLLIDES AGAIN</p>
+
+<p>Rithvik: WHY DOES IT KEEP GETTING WORSE?!</p>
+
+<p>Kevin: We are NOT surviving this normally…</p>
+
+<p>Elise: We need a new plan… FAST.</p>
+
+<h3 class="red">ENDING</h3>
+
+<p>Gojo and Sukuna stop laughing… slowly.</p>
+
+<p>They stare at Granny.</p>
+
+<p>Granny smiles back.</p>
+
+<p>Silence returns…</p>
+
+<div style="text-align:center; margin-top:30px;">
+    <hr style="width:50%;">
+    <p style="font-size:30px; color:red;">TO BE CONTINUED… (PART 7: THE THREE-WAY WAR)</p>
+
+`;
+}
+
+// ===== PART 7 =====
+function showPart7() {
+document.getElementById("outputArea").innerHTML = `
+<style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial;
+            overflow-x: hidden;
+        }
+
+        .red {
+            color: red;
+            text-shadow: 0 0 10px darkred, 0 0 20px red;
+        }
+
+        .blue {
+            color: cyan;
+            text-shadow: 0 0 10px blue, 0 0 20px cyan;
+        }
+
+        .green {
+            color: lime;
+            text-shadow: 0 0 10px green, 0 0 20px lime;
+        }
+
+        .shake {
+            display: inline-block;
+            animation: shake 0.2s infinite;
+        }
+
+        @keyframes shake {
+            0% { transform: translate(0,0); }
+            25% { transform: translate(5px,-5px); }
+            50% { transform: translate(-5px,5px); }
+            75% { transform: translate(5px,5px); }
+            100% { transform: translate(0,0); }
+        }
+
+        .bg {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(0,255,255,0.15), black 70%);
+            z-index: -1;
+        }
+
+        .big {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<h1>Granny Edit Story</h1>
+<h2>Part 7: Gojo’s Students vs Granny</h2>
+
+<p>The battlefield was unstable…</p>
+
+<p>Gojo and Sukuna stood back, watching silently.</p>
+
+<p>Granny floated in her True Form… smiling.</p>
+
+<h3 class="red">SUDDENLY—</h3>
+
+<p class="big blue shake">STUDENTS ENTER THE FIGHT!!!</p>
+
+<p>Gojo: Don’t rush in—</p>
+
+<p>But it was too late.</p>
+
+<h3 class="blue">YUJI ATTACKS</h3>
+
+<p>Yuji: I’ll take her down!</p>
+
+<p class="shake">💥 BOOM! 💥</p>
+
+<p>Granny didn’t even move.</p>
+
+<p>Yuji: …Huh?</p>
+
+<h3 class="green">MEGUMI JOINS</h3>
+
+<p>Megumi: Shadow Technique!</p>
+
+<p>Shadows strike Granny from all sides.</p>
+
+<p>Granny: …Weak.</p>
+
+<p class="red">She snaps her fingers—everything disappears.</p>
+
+<h3 class="blue">NOBARA ATTACKS</h3>
+
+<p>Nobara: Don’t underestimate me!</p>
+
+<p class="shake">🔨 IMPACT! 🔨</p>
+
+<p>Her attack hits… but breaks instantly.</p>
+
+<p>Nobara: No way…</p>
+
+<h3 class="red">GRANNY COUNTERS</h3>
+
+<p>Granny slowly raises her hand.</p>
+
+<p class="big red">REALITY PRESSURE</p>
+
+<p>The ground cracks.</p>
+
+<p>The students are pushed back instantly.</p>
+
+<p>Yuji: She’s too strong…</p>
+
+<p>Megumi: We can’t win like this…</p>
+
+<h3 class="blue">GOJO WATCHES</h3>
+
+<p>Gojo: …They’re learning the difference in power now.</p>
+
+<p>Sukuna: How entertaining.</p>
+
+<h3 class="FINAL MOMENT"></h3>
+
+<p class="big shake red">GRANNY WALKS FORWARD</p>
+
+<p>Granny: You all came willingly… good.</p>
+
+<p>Granny: Less work for me.</p>
+
+<h3 class="ENDING</h3>
+
+<p>The students regroup… shaken.</p>
+
+<p>Gojo steps forward slowly.</p>
+
+<p>Gojo: Now it’s getting serious.</p>
+
+<div style="text-align:center; margin-top:30px;">
+    <hr style="width:50%;">
+    <p style="font-size:30px; color:red;">TO BE CONTINUED… (PART 8: GOJO VS GRANNY BEGINS)</p>
+
+`;
+}
+
+// ===== PART 8 =====
+function showPart8() {
+document.getElementById("outputArea").innerHTML = `
+<style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial;
+            overflow-x: hidden;
+        }
+
+        .red {
+            color: red;
+            text-shadow: 0 0 10px darkred, 0 0 20px red;
+        }
+
+        .blue {
+            color: cyan;
+            text-shadow: 0 0 10px blue, 0 0 20px cyan;
+        }
+
+        .purple {
+            color: violet;
+            text-shadow: 0 0 10px purple, 0 0 20px blue;
+        }
+
+        .shake {
+            display: inline-block;
+            animation: shake 0.15s infinite;
+        }
+
+        @keyframes shake {
+            0% { transform: translate(0,0); }
+            25% { transform: translate(5px,-5px); }
+            50% { transform: translate(-5px,5px); }
+            75% { transform: translate(5px,5px); }
+            100% { transform: translate(0,0); }
+        }
+
+        .bg {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(0,150,255,0.15), black 70%);
+            z-index: -1;
+        }
+
+        .big {
+            font-size: 45px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<h1>Granny Edit Story</h1>
+<h2>Part 8: Gojo vs Granny</h2>
+
+<p>The battlefield goes completely silent.</p>
+
+<p>Even the wind stops.</p>
+
+<h3 class="blue">GOJO STEPS FORWARD</h3>
+
+<p>Gojo: I’ll handle this.</p>
+
+<p>Sukuna: Finally… something worth watching.</p>
+
+<p>Granny floats in the sky… smiling.</p>
+
+<h3 class="red">GRANNY TRUE FORM</h3>
+
+<p class="big red">GRANNY: FINAL STATE</p>
+
+<p>Reality bends around her presence.</p>
+
+<p>Gojo slowly removes his playful tone.</p>
+
+<p>Gojo: …I guess I have to go all out.</p>
+
+<h3 class="blue">LIMITLESS ACTIVATED</h3>
+
+<p class="blue">Gojo: Infinity… on.</p>
+
+<p>The space around him distorts.</p>
+
+<p>Nothing can touch him.</p>
+
+<h3 class="purple">GRANNY MOVES</h3>
+
+<p>Granny: Interesting.</p>
+
+<p class="shake red">🔥 BOOM! 🔥</p>
+
+<p>She strikes—space itself cracks.</p>
+
+<p>But stops at Infinity.</p>
+
+<p>Granny: …Huh.</p>
+
+<h3 class="blue">GOJO COUNTERS</h3>
+
+<p>Gojo: You can’t reach me.</p>
+
+<p>Gojo disappears instantly.</p>
+
+<p class="shake blue">💥 TELEPORT HIT! 💥</p>
+
+<p>He strikes Granny—she slides back slightly.</p>
+
+<p>Kevin: HE ACTUALLY HIT HER?!</p>
+
+<p>Rithvik: This is insane…</p>
+
+<h3 class="RED ESCALATION"></h3>
+
+<p class="red big shake">GRANNY STARTS SERIOUS</p>
+
+<p>Granny: Enough playing.</p>
+
+<p>The sky turns darker.</p>
+
+<p>The ground begins to collapse.</p>
+
+<h3 class="blue">GOJO GETS SERIOUS</h3>
+
+<p>Gojo: …Then I’ll end this quickly.</p>
+
+<p class="blue big">DOMAIN EXPANSION: INFINITE VOID</p>
+
+<p>Everything turns white… then endless information floods the space.</p>
+
+<p>Even Granny pauses.</p>
+
+<h3 class="FINAL MOMENT</h3>
+
+<p>Granny slowly raises her hand inside the domain.</p>
+
+<p>Granny: …Interesting prison.</p>
+
+<p>Gojo: This should be enough.</p>
+
+<p>Silence.</p>
+
+<h3 class="ENDING"></h3>
+
+<p>The domain starts cracking.</p>
+
+<p>Gojo: …What?</p>
+
+<p>Granny smiles.</p>
+
+<p>Granny: My turn.</p>
+
+<div style="text-align:center; margin-top:30px;">
+    <hr style="width:50%;">
+    <p style="font-size:30px; color:red;">TO BE CONTINUED… (PART 9: GRANNY BREAKS INFINITE VOID)</p>
+`;
+}
+
+// ===== PART 9 =====
+function showPart9() {
+document.getElementById("outputArea").innerHTML = `
+<style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial;
+            overflow-x: hidden;
+        }
+
+        .red {
+            color: red;
+            text-shadow: 0 0 10px darkred, 0 0 20px red;
+        }
+
+        .blue {
+            color: cyan;
+            text-shadow: 0 0 10px blue, 0 0 20px cyan;
+        }
+
+        .orange {
+            color: orange;
+            text-shadow: 0 0 10px red, 0 0 20px orange;
+        }
+
+        .shake {
+            display: inline-block;
+            animation: shake 0.15s infinite;
+        }
+
+        @keyframes shake {
+            0% { transform: translate(0,0); }
+            25% { transform: translate(5px,-5px); }
+            50% { transform: translate(-5px,5px); }
+            75% { transform: translate(5px,5px); }
+            100% { transform: translate(0,0); }
+        }
+
+        .bg {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255,50,0,0.15), black 70%);
+            z-index: -1;
+        }
+
+        .big {
+            font-size: 45px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<h1>Granny Edit Story</h1>
+<h2>Part 9: Yuji Ends It</h2>
+
+<p>The Infinite Void is collapsing…</p>
+
+<p>Everything is breaking apart.</p>
+
+<p>Gojo is breathing heavily.</p>
+
+<p>Gojo: …I can’t hold it anymore.</p>
+
+<h3 class="red">GRANNY BREAKS FREE</h3>
+
+<p class="big red shake">GRANNY: TRUE FORM UNCHAINED</p>
+
+<p>She steps out of the collapsing domain.</p>
+
+<p>Reality repairs itself around her presence.</p>
+
+<p>Kevin: …We’re done.</p>
+
+<p>Rithvik: No way we win this…</p>
+
+<h3 class="blue">GOJO FALLS BACK</h3>
+
+<p>Gojo: She’s beyond my limit…</p>
+
+<p>Sukuna: Hah… disappointing.</p>
+
+<p>Granny: Is this all?</p>
+
+<h3 class="ORANGE MOMENT"></h3>
+
+<p class="orange big shake">YUJI STEPS FORWARD</p>
+
+<p>Yuji: …I’m not letting this continue.</p>
+
+<p>Gojo: Yuji… wait—</p>
+
+<p>Yuji: I know.</p>
+
+<p>Yuji: But I have to try.</p>
+
+<h3 class="red">GRANNY TURNS</h3>
+
+<p>Granny: You?</p>
+
+<p>Granny: A human?</p>
+
+<p>Yuji: Yeah.</p>
+
+<p>Yuji: Just a human.</p>
+
+<h3 class="FINAL STRIKE BUILDUP</h3>
+
+<p>Everything goes silent.</p>
+
+<p>Yuji clenches his fist.</p>
+
+<p>Energy gathers around him.</p>
+
+<p>Kevin: …That feeling.</p>
+
+<p>Rithvik: He’s different now…</p>
+
+<h3 class="ORANGE FINAL ATTACK</h3>
+
+<p class="big orange shake">YUJI: BLACK FLASH!!!</p>
+
+<p>Space distorts.</p>
+
+<p>A single punch lands directly on Granny.</p>
+
+<p class="shake">💥 BOOOOOM!!! 💥</p>
+
+<h3 class="SILENCE</h3>
+
+<p>No movement.</p>
+
+<p>No sound.</p>
+
+<p>Granny stands still.</p>
+
+<p>Then slowly… cracks appear.</p>
+
+<h3 class="FINAL MOMENT"></h3>
+
+<p class="red">Granny: …So this is it.</p>
+
+<p>Yuji: …</p>
+
+<p>Granny slowly dissolves into energy.</p>
+
+<p>Reality stabilizes.</p>
+
+<h3 class="ENDING"></h3>
+
+<p>Gojo: …He actually did it.</p>
+
+<p>Sukuna: Interesting.</p>
+
+<p>Kevin: It’s finally over… right?</p>
+
+<p>Rithvik: PLEASE tell me it’s over.</p>
+
+<p>Yuji: …Yeah.</p>
+
+<div style="text-align:center; margin-top:30px;">
+    <hr style="width:50%;">
+    <p style="font-size:30px; color:orange;">THE END…? (FINAL EPILOGUE COMING)</p>
+`;
+}
+
+// ===== PART 10 =====
+function showPart10() {
+document.getElementById("outputArea").innerHTML = `
+<style>
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial;
+            overflow-x: hidden;
+        }
+
+        .red {
+            color: red;
+            text-shadow: 0 0 10px darkred, 0 0 20px red;
+        }
+
+        .purple {
+            color: violet;
+            text-shadow: 0 0 10px purple, 0 0 20px blue;
+        }
+
+        .dark {
+            color: gray;
+            text-shadow: 0 0 10px black, 0 0 20px white;
+        }
+
+        .shake {
+            display: inline-block;
+            animation: shake 0.15s infinite;
+        }
+
+        @keyframes shake {
+            0% { transform: translate(0,0); }
+            25% { transform: translate(5px,-5px); }
+            50% { transform: translate(-5px,5px); }
+            75% { transform: translate(5px,5px); }
+            100% { transform: translate(0,0); }
+        }
+
+        .bg {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(0,0,0,0.8), black 70%);
+            z-index: -1;
+        }
+
+        .big {
+            font-size: 45px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<h1>Granny Edit Story</h1>
+<h2>Part 10: Slenderman Rage Mode</h2>
+
+<p>The battlefield finally became calm…</p>
+
+<p>Yuji had defeated Granny.</p>
+
+<p>Everyone was exhausted.</p>
+
+<p>Kevin: It’s finally over…</p>
+
+<p>Rithvik: THANK GOD…</p>
+
+<h3 class="dark">SUDDENLY…</h3>
+
+<p class="big shake dark">THE SKY TURNS BLACK AGAIN</p>
+
+<p>Gojo: …No way.</p>
+
+<p>Sukuna: Hah… another one?</p>
+
+<h3 class="dark">A DARK FIGURE APPEARS</h3>
+
+<p class="big dark">SLENDERMAN</p>
+
+<p>But something was different.</p>
+
+<p class="red">His body was shaking with rage.</p>
+
+<p class="red">His aura was darker than before.</p>
+
+<h3 class="red">RAGE MODE ACTIVATED</h3>
+
+<p class="big red shake">SLENDERMAN: ANGER MODE</p>
+
+<p>Slenderman lets out a silent scream.</p>
+
+<p class="shake">💥 BOOOOOOM!!! 💥</p>
+
+<p>The ground splits apart.</p>
+
+<h3>TEAM STRUGGLES</h3>
+
+<p>Kevin: OPEN FIRE!</p>
+
+<p>Weapons attack—no effect.</p>
+
+<p>Elise: I can’t hit him!</p>
+
+<p>Rithvik: HE’S TOO FAST!</p>
+
+<p>Yuji: I’ll try again!</p>
+
+<p class="shake">💥 IMPACT 💥</p>
+
+<p>Yuji gets thrown back instantly.</p>
+
+<p>Yuji: He’s stronger than Granny…</p>
+
+<h3 class="purple">GOJO STEPS IN</h3>
+
+<p>Gojo: That’s enough.</p>
+
+<p>Everything goes silent again.</p>
+
+<p>Slenderman rushes toward him.</p>
+
+<h3 class="purple">FINAL TECHNIQUE</h3>
+
+<p class="purple">Gojo: You’re not on her level.</p>
+
+<p class="big purple shake">HOLLOW PURPLE</p>
+
+<p>A massive purple energy forms.</p>
+
+<p>Space bends violently.</p>
+
+<p class="shake">💥 FIRED 💥</p>
+
+<h3>FINAL MOMENT</h3>
+
+<p>The attack hits Slenderman directly.</p>
+
+<p>Dark energy explodes everywhere.</p>
+
+<p>Silence.</p>
+
+<p>Slenderman stands…</p>
+
+<p>Then slowly disappears into nothing.</p>
+
+<h3>ENDING</h3>
+
+<p>Kevin: …Okay NOW it’s over.</p>
+
+<p>Rithvik: I’m not believing anything anymore.</p>
+
+<p>Yuji: We did it…</p>
+
+<p>Gojo: Finally.</p>
+
+<p>Sukuna: Hmph.</p>
+
+<div style="text-align:center; margin-top:30px;">
+    <hr style="width:50%;">
+    <p style="font-size:30px;">THE END…</p>
+`;
+}
+
+</script>
+
+</body>
+</html>
